@@ -1,0 +1,19 @@
+{
+  "name": "maccessible",
+  "version": "0.1.0",
+  "description": "A component library in the style of classic Mac OS, focused on full accesibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasljungstrom/Maccessible.git"
+  },
+  "author": "Tobias Ljungström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobiasljungstrom/Maccessible/issues"
+  },
+  "homepage": "https://github.com/tobiasljungstrom/Maccessible#readme"
+}
