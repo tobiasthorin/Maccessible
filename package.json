@@ -4,7 +4,9 @@
   "description": "A component library in the style of classic Mac OS, focused on full accesibility.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/tobiasljungstrom/Maccessible/issues"
   },
-  "homepage": "https://github.com/tobiasljungstrom/Maccessible#readme"
+  "homepage": "https://github.com/tobiasljungstrom/Maccessible#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.14",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/addon-links": "^6.1.14",
+    "@storybook/html": "^6.1.14",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
 }
