@@ -18,13 +18,13 @@
     "url": "https://github.com/tobiasljungstrom/Maccessible/issues"
   },
   "homepage": "https://github.com/tobiasljungstrom/Maccessible#readme",
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@storybook/addon-actions": "^6.1.14",
-    "@storybook/addon-essentials": "^6.1.14",
-    "@storybook/addon-links": "^6.1.14",
-    "@storybook/html": "^6.1.14",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-essentials": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/html": "^6.1.15",
     "babel-loader": "^8.2.2"
-  },
-  "dependencies": {}
+  }
 }
