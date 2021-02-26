@@ -1,5 +1,6 @@
 export default {
-  title: "Example/Button",
+  title: "Button",
 };
 
-export const Primary = () => `<mac-button></mac-button>`;
+export const Button = () =>
+  `<mac-button><span>This is button</span></mac-button>`;

@@ -1,6 +1,6 @@
 class MacButton extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<button>MacButton</button>`;
+    this.innerHTML = `<button>Button</button>`;
   }
 }
 
