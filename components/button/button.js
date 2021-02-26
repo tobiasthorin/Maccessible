@@ -1,6 +1,12 @@
 class MacButton extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+  }
+
   connectedCallback() {
-    this.innerHTML = `<button>Button</button>`;
+    const { shadowRoot } = this;
+    shadowRoot.innerHTML = `<button><slot></slot></button>`;
   }
 }
 
