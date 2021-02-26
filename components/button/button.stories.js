@@ -3,7 +3,6 @@ export default {
 };
 
 const Template = (args) => {
-  console.log(args.onClick.toString());
   return `
     <script>
       ${args.onClick.toString()}
