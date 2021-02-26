@@ -99,6 +99,7 @@ class MacModal extends HTMLElement {
   }
 
   disconnectedCallback() {
+    const { shadowRoot } = this;
     shadowRoot.querySelector("button").removeEventListener("click", this.close);
     shadowRoot
       .querySelector(".overlay")
