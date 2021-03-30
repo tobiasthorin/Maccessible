@@ -20,9 +20,7 @@
   "homepage": "https://github.com/tobiasljungstrom/Maccessible#readme",
   "devDependencies": {
     "@babel/core": "^7.12.13",
-    "@storybook/addon-actions": "^6.1.17",
     "@storybook/addon-essentials": "^6.1.17",
-    "@storybook/addon-links": "^6.1.17",
     "@storybook/html": "^6.1.17",
     "babel-loader": "^8.2.2"
   }

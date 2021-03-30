@@ -1,7 +1,6 @@
-import { action } from "@storybook/addon-actions";
-
 export default {
   title: "Button",
+  argTypes: { onClick: { action: "Clicked the button" } },
 };
 
 const Template = (args) => {
@@ -16,5 +15,4 @@ const Template = (args) => {
 export const Button = Template.bind({});
 Button.args = {
   text: "MacButton",
-  onClick: action("Clicked the button"),
 };

@@ -1,8 +1,6 @@
 devDependencies:
   '@babel/core': 7.12.13
-  '@storybook/addon-actions': 6.1.17
   '@storybook/addon-essentials': 6.1.17_c9224ce16209647f1596bf4bf0e941d0
-  '@storybook/addon-links': 6.1.17
   '@storybook/html': 6.1.17_@babel+core@7.12.13
   babel-loader: 8.2.2_@babel+core@7.12.13
 lockfileVersion: 5.2
@@ -1624,31 +1622,6 @@ packages:
         optional: true
     resolution:
       integrity: sha512-oy/sbI2KdnnzqfdRaI1sAXb01zTP7ViwO+R1maKoeK1WyuK+WVdl8a7AdqgYW1ZCEoohsnz4HUz6t50DTcxWqQ==
-  /@storybook/addon-links/6.1.17:
-    dependencies:
-      '@storybook/addons': 6.1.17
-      '@storybook/client-logger': 6.1.17
-      '@storybook/core-events': 6.1.17
-      '@storybook/csf': 0.0.1
-      '@storybook/router': 6.1.17
-      '@types/qs': 6.9.5
-      core-js: 3.8.3
-      global: 4.4.0
-      prop-types: 15.7.2
-      qs: 6.9.6
-      regenerator-runtime: 0.13.7
-      ts-dedent: 2.0.0
-    dev: true
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    resolution:
-      integrity: sha512-Wl5EwWjNRXTR0hVWqA0Nr+HnIXALt/avqtNMIx7apodQwUPIRncLol73Z/nF+pUIYZFJQ3886koOWG54OWwAvQ==
   /@storybook/addon-toolbars/6.1.17:
     dependencies:
       '@storybook/addons': 6.1.17
@@ -10180,8 +10153,6 @@ packages:
       integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==
 specifiers:
   '@babel/core': ^7.12.13
-  '@storybook/addon-actions': ^6.1.17
   '@storybook/addon-essentials': ^6.1.17
-  '@storybook/addon-links': ^6.1.17
   '@storybook/html': ^6.1.17
   babel-loader: ^8.2.2
