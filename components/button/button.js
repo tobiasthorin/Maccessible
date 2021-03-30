@@ -3,7 +3,7 @@ const style = `
     button {
       position: relative;
 
-      border: 1px solid black;
+      border: 2px solid black;
       padding: 4px 24px;
       background-color: #fff;
       color: #000;
